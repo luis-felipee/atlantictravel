@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+header{  
+    height: 600px;
+    background-image: url(/assets/images/mar.jpg);
+    background-size: cover;
+}
+
+.nav-div{
+    border-bottom: 2px solid black;
+    display: flex;
+    gap: 40px;
+    height: 125px;
+}
+.nav-div a{
+    font-size: 30px;
+
+}
