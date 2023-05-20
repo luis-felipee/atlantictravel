@@ -1,0 +1,47 @@
+body{
+    background-color: salmon;
+}
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+   
+  
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+}
+.grid_container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto; 
+    width: 80%; 
+    justify-content: center;
+    gap: 30px;
+}
+
+.card_grid{
+    height: 42vh;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.img-card{
+    margin-right: 20px;
+    object-fit: cover;
+    height: 100%;
+}
+.item1, .item3{
+    float: left;
+}
+.item2, .item4{
+    float: right;
+    margin: 0;
+}
