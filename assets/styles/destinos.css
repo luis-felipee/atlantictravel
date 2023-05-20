@@ -1,0 +1,36 @@
+.first-section {
+    display: flex;
+    background-image: url(/assets/images/Destinos.jpg);
+    background-repeat: no-repeat;
+    background-position: -1px -1010px;
+    height: 45vh;
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-section{
+    width: 20%;
+}
+.text-content{
+    margin-bottom: 40px;
+}
+.text-content h1{
+    font-size: 48px;
+    color: white;
+    text-shadow: 0 3px 5px #000;
+
+}
+.text-content span{
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 3px 5px #000;
+}
+@media (min-width: 1700px){
+    .first-section{
+       background-position-y: center; 
+    }
+} 

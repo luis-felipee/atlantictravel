@@ -1,0 +1,239 @@
+.first-section{
+    display: flex;
+    background-image: url(/assets/images/cruise2brilho.jpg);
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-section{
+    width: 80%;
+}
+.text-content{
+    margin-bottom: 40px;
+}
+.text-content h1, span{
+    font-size: 48px;
+    color: white;
+    text-shadow: 0 3px 5px #000;
+
+}
+.button-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    position: absolute;
+}
+
+.button{
+    padding: 10px;
+    width: 20vh;
+    height: 3rem;
+    background-color: transparent;
+    background-color: #104958;
+    border-radius: 4px;
+    color: #fff;
+    border: 0;
+    
+}
+
+.button:hover{
+    transition-duration: 2s;
+   
+}
+.first-section{
+    display: flex;
+    background-image: url(/assets/images/cruise2brilho.jpg) !important;
+    background-repeat: no-repeat !important;
+    height: 100vh;
+    width: 100%;
+    background-size: cover !important;
+    background-attachment: fixed;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-section{
+    width: 80%;
+}
+.text-content{
+    margin-bottom: 50px;
+}
+.text-content h1, span{
+    font-family: 'Poppins-Italic';
+    font-size: 48px;
+    color: white;
+    text-shadow: 0 3px 5px #000;
+    height: 50%;
+
+}
+.button-section{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    padding: 10px;
+    width: 20vh;
+    height: 3rem;
+    background-color: transparent;
+    background-color: #104958;
+    border-radius: 4px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+
+
+.button:hover{
+   transform: scale(1.2, 1.2);
+   color: #0187A0;
+}
+
+.destinos{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    height: 150px;
+    align-items: center;
+    border: #104958 2px solid;
+    background-color: #104958;
+    border-radius: 30px;
+}
+.destinos-form{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    gap: 20px;
+   
+}
+.destinos-form select, input, input[type=submit]{
+    width: 13%;
+    height: 40%;
+    background-color: #104958;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid white;
+}
+/* FROTAS DO NÁVIO  */
+.frotas{
+    text-align: left;
+    margin: 5% 5%;
+    width: 90%;
+    height: 90vh;
+}
+.frotas-title{
+    margin: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+.frota-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    gap: 50px;
+}
+.card-section{
+    width: 400px;
+    height: 400px;
+}
+.text-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+}
+
+.button{
+    padding: 10px;
+    width: 20vh;
+    height: 3rem;
+    background-color: transparent;
+    background-color: #104958;
+    border-radius: 4px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+
+
+.button:hover{
+   transform: scale(1.2, 1.2);
+   color: #0187A0;
+}
+
+.destinos{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    height: 150px;
+    align-items: center;
+    border: #104958 2px solid;
+    background-color: #104958;
+    border-radius: 30px;
+}
+.destinos-form{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    gap: 20px;
+   
+}
+.destinos-form select, input, input[type=submit]{
+    width: 13%;
+    height: 40%;
+    background-color: #104958;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid white;
+}
+
+.button-card{
+    margin: 80px 25%;
+}
+.frota-first{
+    background: url(/assets/images/frota1.jpg);
+    background-size: cover;
+}
+.frota-second{
+    background: url(/assets/images/frota2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.frota-third{
+   
+    background: url(/assets/images/frota3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.frota-four{
+ 
+    background: url(/assets/images/frota3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+@media (min-width: 1700px){
+    .first-section{
+       background-position-y: center; 
+    }
+} 

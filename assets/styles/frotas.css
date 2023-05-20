@@ -4,19 +4,39 @@ body{
 header{
     position: -webkit-sticky;
     position: sticky;
-    height: 12vh;
-    top: 0;
-    background-color: beige;
-   border: 2px solid black;
+    top: 0; 
+}
+.first-section {
+    display: flex;
+    background-image: url(/assets/images/cruise1.jpg);
+    background-repeat: no-repeat;
+    background-position: -1px -1150px;
+    height: 45vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -67px;
+}
+.div-section{
+    width: 50%;
+    margin-left: 66px;
+}
+.text-content{
+    margin-bottom: 40px;
+}
+.text-content h1{
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 3px 5px #000;
+    margin-left: 66px;
+
 }
 img{
     width: 400px;
     height: 400px;
-}
-
-.section-header{
-    text-align: center;
-    margin: 0 2;
 }
 .section{
     display: flex;
@@ -32,11 +52,14 @@ img{
 }
 
 .card_grid{
-    height: 25vh;
+    height: 42vh;
     background-color: #fff;
     border-radius: 4px;
     margin-right: 10%;
     margin-left: 10%;
+}
+.caixa{
+    padding: 2%;
 }
 
 .img-card{
@@ -44,10 +67,15 @@ img{
     object-fit: cover;
     height: 100%;
 }
-.grid1 img, .grid3 img{
+.item1, .item3{
     float: left;
 }
-.grid2 img, .grid4 img{
+.item2, .item4{
     float: right;
     margin: 0;
 }
+@media (min-width: 1700px){
+    .first-section{
+       background-position-y: center; 
+    }
+} 
