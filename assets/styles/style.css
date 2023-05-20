@@ -1,14 +1,26 @@
 @font-face {
+    font-family: 'Poppins-Italic';
+    src: url(/assets/fonts/Poppins/Poppins-LightItalic.ttf);
+}
+@font-face {
     font-family: 'Poppins-Regular';
-    src: url(./fonts/Poppins/Poppins-Regular.ttf);
+    src: url(/assets/fonts/Poppins/Poppins-Regular.ttf);
 }
 
 
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins-Regular', sans-serif;
+    box-sizing: border-box;
+}
+body{
+  background-color:   #fafeff;
 }
 
+/* HEADER */
 header{
     display: flex;
     flex-flow: row nowrap;
@@ -16,10 +28,14 @@ header{
     justify-content: space-between;
     width: 100%;
     height: 10vh;
-    /* background-color: #104958; */
-    background-color: transparent;
-    position: fixed;
+    background-color: #104958;
+    position: sticky;
+    top: 0;
     color: #fff;
+    transition: all .2s;
+}
+.header-scrolled{
+    background-color: transparent;
 }
 #title {
     margin-left: 10%;
@@ -30,21 +46,24 @@ header{
     gap: 100px;
     margin-right: 10%;
 }
-#navbar a{
+.link{
     text-decoration: none;
     color: #fff;
     font-size: 18px;
-
+}
+.link:hover{
+    color: #0187A0;
 }
 
 
+/* SECTION PRINCIPAL  */
 .first-section{
     display: flex;
-    background-image: url(/assets/images/cruise2brilho.jpg);
-    background-repeat: no-repeat;
+    background-image: url(/assets/images/cruise2brilho.jpg) !important;
+    background-repeat: no-repeat !important;
     height: 90vh;
     width: 100vw;
-    background-size: cover;
+    background-size: cover !important;
     background-attachment: fixed;
     align-items: center;
     flex-direction: column;
@@ -55,19 +74,19 @@ header{
     width: 80%;
 }
 .text-content{
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .text-content h1, span{
+    font-family: 'Poppins-Italic';
     font-size: 48px;
     color: white;
     text-shadow: 0 3px 5px #000;
+    height: 50%;
 
 }
 .button-section{
     display: flex;
     justify-content: center;
-    margin-top: 20vh;
-    position: absolute;
 }
 
 .button{
@@ -79,20 +98,104 @@ header{
     border-radius: 4px;
     color: #fff;
     border: 0;
-    
+    cursor: pointer;
+    transition-duration: 2s;
 }
+
 
 .button:hover{
-    transition-duration: 2s;
-   
+   transform: scale(1.2, 1.2);
+   color: #0187A0;
 }
 
+.destinos{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    height: 150px;
+    align-items: center;
+    border: #104958 2px solid;
+    background-color: #104958;
+    border-radius: 30px;
+}
+.destinos-form{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    gap: 20px;
+   
+}
+.destinos-form select, input, input[type=submit]{
+    width: 13%;
+    height: 40%;
+    background-color: #104958;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid white;
+}
+/* FROTAS DO NÁVIO  */
+.frotas{
+    text-align: left;
+    margin: 5% 5%;
+    width: 90%;
+    height: 90vh;
+}
+.frotas-title{
+    margin: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+.frota-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    gap: 50px;
+}
+.card-section{
+    width: 400px;
+    height: 400px;
+}
+.text-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+}
 
+.button-card{
+    margin: 80px 25%;
+}
+.frota-first{
+    background: url(/assets/images/frota1.jpg);
+    background-size: cover;
+}
+.frota-second{
+    background: url(/assets/images/frota2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.frota-third{
+   
+    background: url(/assets/images/frota3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.frota-four{
+ 
+    background: url(/assets/images/frota3.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
-
-
-
-
+/* RESPONSIVO */
 @media (min-width: 1700px){
     .first-section{
        background-position-y: center; 

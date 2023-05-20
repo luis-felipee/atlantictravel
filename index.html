@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,20 @@
     <title>Atlantic Travel</title>
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
+
 <body>
     <header>
         <div id="title">
             <h1>Atlantic Travel</h1>
         </div>
         <nav id="navbar">
-            <a href="./frotas.html">Frota</a>
-            <a href="">Destinos</a>
-            <a href="">Contatos</a>
-        </nav>   
+            <a class="link" href="./frotas.html">Frota</a>
+            <a class="link" href="">Destinos</a>
+            <a class="link" href="">Contatos</a>
+        </nav>
     </header>
-    <section class="section first-section">
+
+    <section class="first-section">
         <div class="div-section text-content">
             <h1>Explore the</h1>
             <span id="element"></span>
@@ -28,8 +31,64 @@
         </div>
     </section>
 
+    <section class="second-section">
+        <div class="destinos">
+            <form action="" class="destinos-form">
+                <select for="partida" name="partida" id="">
+                    <option value="" disabled selected hidden>Partida</option>
+                    <option value="">São Paulo</option>
+                    <option value="">São Paulo</option>
+                </select>
+                <select for="Destino" name="destino" id="">
+                    <option value="" disabled selected hidden>Destino</option>
+                    <option value="">São Paulo</option>
+                    <option value="">São Paulo</option>
+                </select>
 
+                <input id="checkin" type="date" name="checkin" min="">
+                <input id="checkout" type="date" name="checkout" min="">
+                <select name="navio" id="navio">
+                    <option value="" disabled selected hidden>NAVIO</option>
+                    <option value="star">Atlantic Star</option>
+                    <option value="star">Atlantic Star</option>
+                    <option value="star">Atlantic Star</option>
+                    <option value="star">Atlantic Star</option>
+                </select>
+                <input type="submit" value="BUSCAR" class="button">
+            </form>
+        </div>
+        <div class="frotas">
+            <h2 class="frotas-title">Principais navios de nossa frota</h2>
+            <div class="frota-grid">
+                <div class="card-section frota-first">
+                    <div class="text-card">
+                        <button class="button-card button"><a class="link" href="./frotas.html">SAIBA MAIS</a></button>
+                    </div>
+                </div>
+                <div class="card-section frota-second">
+                    <div class="text-card">
+                        <button class="button-card button"><a class="link button-link" href="./frotas.html">SAIBA MAIS</a></button>
+                    </div>
+                </div>
+                <div class="card-section frota-third">
+                    <div class="text-card">
+                        <button class="button-card button"><a class="link button-link" href="./frotas.html">SAIBA MAIS</a></button>
+                    </div>
+                </div>
+                <div class="card-section frota-four">
+                    <div class="text-card">
+                        <button class="button-card button"><a class="link button-link" href="./frotas.html">SAIBA MAIS</a></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Importa a biblioteca typed do javascript -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="main.js"></script>
 </body>
+
 </html>

@@ -4,13 +4,19 @@ body{
 header{
     position: -webkit-sticky;
     position: sticky;
+    height: 12vh;
     top: 0;
-   
-  
+    background-color: beige;
+   border: 2px solid black;
 }
 img{
     width: 400px;
     height: 400px;
+}
+
+.section-header{
+    text-align: center;
+    margin: 0 2;
 }
 .section{
     display: flex;
@@ -26,7 +32,7 @@ img{
 }
 
 .card_grid{
-    height: 42vh;
+    height: 25vh;
     background-color: #fff;
     border-radius: 4px;
     margin-right: 10%;
@@ -38,10 +44,10 @@ img{
     object-fit: cover;
     height: 100%;
 }
-.item1, .item3{
+.grid1 img, .grid3 img{
     float: left;
 }
-.item2, .item4{
+.grid2 img, .grid4 img{
     float: right;
     margin: 0;
 }
