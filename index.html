@@ -1,26 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atlantic Travel</title>
-    <link rel="stylesheet" href="./assets/styles/style.css">
     <link rel="stylesheet" href="./assets/styles/index.css">
-    <link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
+
 <body>
     <header>
         <div id="title">
+            <div id="title-img">
+                <img src="/assets/images/logo2.png" alt="">
+            </div>
             <h1><a href="index.html">Atlantic Travel</a></h1>
         </div>
         <nav id="navbar">
-            <a href="./frotas.html">Frota</a>
-            <a href="destinos.html">Destinos</a>
-            <a href="contato.html">Contatos</a>
-        </nav>   
+            <a class="link" href="./frotas.html">Frota</a>
+            <a class="link" href="./destinos.html">Destinos</a>
+            <a class="link" href="">Contatos</a>
+        </nav>
     </header>
-    <section class="section first-section">
+
+    <section class="first-section">
         <div class="div-section text-content">
             <h1>Explore the</h1>
             <span id="element"></span>
@@ -29,10 +37,10 @@
             <button id="section-button" class="button">EXPLORE</button>
         </div>
     </section>
-    
+
     <section class="second-section">
-        <div class="destinos">
-            <form action="" class="destinos-form">
+        <div class="form_div">
+            <form action="" class="form">
                 <select for="partida" name="partida" id="">
                     <option value="" disabled selected hidden>Partida</option>
                     <option value="">São Paulo</option>
@@ -83,8 +91,14 @@
 
         </div>
     </section>
+    <!-- ESPAÇO PARA O CARROSSEL -->
+    <!-- FIM DO CARROSSEL -->
 
+    <!-- FOOTER -->
+
+    <!-- Importa a biblioteca typed do javascript -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="main.js"></script>
 </body>
+
 </html>
