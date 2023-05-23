@@ -1,17 +1,16 @@
 body{
-    background-color: salmon;
+    color:#00476c;
 }
 header{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0; 
+    position: fixed;
+
 }
 .first-section {
     display: flex;
     background-image: url(/assets/images/cruise1.jpg);
     background-repeat: no-repeat;
-    background-position: -1px -1150px;
-    height: 45vh;
+    background-position: -1px -1300px;
+    height: 60vh;
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
@@ -20,9 +19,17 @@ header{
     justify-content: center;
     margin-top: -67px;
 }
+.text{
+    display: flex;
+    width: 100%;
+    padding: 15px 20%;
+    font-size: 20px;
+    text-align: center;
+}
 .div-section{
-    width: 50%;
-    margin-left: 66px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 .text-content{
     margin-bottom: 40px;
@@ -31,8 +38,6 @@ header{
     font-size: 40px;
     color: white;
     text-shadow: 0 3px 5px #000;
-    margin-left: 66px;
-
 }
 .img-card{
     width: 400px;
@@ -49,6 +54,8 @@ header{
     width: 80%; 
     justify-content: center;
     gap: 30px;
+    margin-bottom: 50px;
+    padding: 1%;
 }
 
 .card_grid{
