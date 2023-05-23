@@ -22,7 +22,7 @@
     font-family: 'Poppins-Italic';
     font-size: 48px;
     color: white;
-    text-shadow: 4px 3px 3px #000;
+    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.6);
     height: 50%;
 
 }
@@ -36,7 +36,7 @@
     width: 20vh;
     height: 3rem;
     background-color: transparent;
-    background-color: #104958;
+    background-color: #00476c;
     border-radius: 4px;
     color: #fff;
     border: 0;
@@ -70,14 +70,18 @@
    
 }
 .form select, input, input[type=submit]{
-    width: 13%;
-    height: 40%;
-    background-color: #00476c;
-    color: white;
+    width: 50%;
+    height: 60%;
+    background-color: rgb(255, 255, 255, 0.9);
+    font-weight: bolder;
+    text-align: center;
+    color: #00476c;
     border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins-italic', sans-serif;
     border: 2px solid white;
+    font-size: 18px;
 }
+
 /* FROTAS DO NÁVIO  */
 .frotas{
     text-align: left;

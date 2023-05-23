@@ -9,7 +9,7 @@ header{
     display: flex;
     background-image: url(/assets/images/cruise1.jpg);
     background-repeat: no-repeat;
-    background-position: -1px -1300px;
+    background-position: -1px -900px;
     height: 60vh;
     width: 100%;
     background-size: cover;
@@ -17,8 +17,8 @@ header{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-top: -67px;
 }
+
 .text{
     display: flex;
     width: 100%;
@@ -64,6 +64,7 @@ header{
     border-radius: 4px;
     margin-right: 10%;
     margin-left: 10%;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
 }
 .caixa{
     padding: 2%;

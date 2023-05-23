@@ -3,11 +3,11 @@ const headerElement = document.querySelector('header');
 
 window.addEventListener('scroll', () => {
     
-    if (window.scrollY > 100 ){
-        headerElement.classList.add('header-scrolled');
+    if (window.scrollY > 100 && window.scrollY <= 800){
+        headerElement.classList.remove('header-scrolled');
     }
-    else if(window.scrollY <=100 ){
-        headerElement.classList.remove('header-scrolled')
+    else if(window.scrollY > 800 ){
+        headerElement.classList.add('header-scrolled')
     }
 });
 // Apaga e escreve o texto na primeira section.
