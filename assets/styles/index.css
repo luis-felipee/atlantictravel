@@ -61,7 +61,6 @@
 }
 .form{
     display: flex;
-    height: 50px;
     justify-content: space-between;
     width: 80%;
     height: 80%;
@@ -140,7 +139,37 @@
 }
 
 /* RESPONSIVO */
-
+@media (max-width: 768px){
+    .text-content h1, .text-content span{
+        font-size: 24px;
+    }
+    .form_div{
+        height: 70vh;
+    }
+    .form{
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-around;
+    }
+    .form select, input, input[type=submit]{
+        height: 50px;
+    }
+    .frota-grid{
+        grid-template-columns: auto;
+    }
+    .card-section{
+        width: 80vw;
+    }
+    .footer-top{
+        display: inline-flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    .subfooter-content{
+        flex-direction: column;
+        text-align: center;
+    }
+}
 @media (min-width: 1700px){
     .first-section{
        background-position-y: center; 
