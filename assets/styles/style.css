@@ -136,3 +136,64 @@ footer{
 .subfooter-link p {
     color: white;
 }
+
+
+
+/* MENU MOBILE RESPONSIVO */
+.hamburguer{
+    display: none;
+    cursor: pointer;
+}
+.line{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 5px 10px;
+}
+
+@media (max-width: 768px){
+    #navbar{
+        position: absolute;
+        right: -200%;
+        top: 10vh;
+        margin-right: 0;
+        width: 100vw;
+        height: 20vh;
+        background: rgb(255, 255, 255, 0.6);
+        /* background: rgb(0, 71, 108, 0.6); */
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.4s all;
+    }
+    #navbar a{
+        color: #00476c;
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 0;
+    }
+    #navbar a:hover{
+        color: #0187A0;
+    }
+    .hamburguer{
+        display: block;
+    }
+    .line{
+        transition: 0.4s all;
+    }
+    .hamburguer.active .line:nth-child(2){
+        opacity: 0;
+    }
+    .hamburguer.active .line:nth-child(1){
+        transform: translateY(5px) rotate(45deg);
+    }
+    .hamburguer.active .line:nth-child(3){
+        transform: translateY(-10px) rotate(-45deg);
+    }
+    #navbar.active{
+        right: 0;
+       /* transform: scaleX(100%); */
+    }
+
+}
