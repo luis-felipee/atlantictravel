@@ -117,23 +117,23 @@
     margin: 80px 25%;
 }
 .frota-first{
-    background: url(/assets/images/frota1.jpg);
+    background: url(/assets/images/index/frota1.jpg);
     background-size: cover;
 }
 .frota-second{
-    background: url(/assets/images/frota2.jpg);
+    background: url(/assets/images/index/frota2.jpg);
     background-size: cover;
     background-position: center;
 }
 .frota-third{
    
-    background: url(/assets/images/frota3.jpg);
+    background: url(/assets/images/index/frota3.jpg);
     background-size: cover;
     background-position: center;
 }
 .frota-four{
  
-    background: url(/assets/images/frota3.jpg);
+    background: url(/assets/images/Frota/Atlantic\ StarInte3.jpg);
     background-size: cover;
     background-position: center;
 }

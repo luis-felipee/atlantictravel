@@ -7,9 +7,9 @@ header{
 }
 .first-section {
     display: flex;
-    background-image: url(/assets/images/cruise1.jpg);
+    background-image: url(/assets/images/Frota/Capa.jpg);
     background-repeat: no-repeat;
-    background-position: -1px -900px;
+    background-position: 0px -11vh;
     height: 60vh;
     width: 100%;
     background-size: cover;
@@ -85,5 +85,43 @@ header{
 @media (min-width: 1700px){
     .first-section{
        background-position-y: center; 
+       
     }
 } 
+@media (max-width: 768px){
+    .grid_container{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+
+    }
+    .card_grid{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        width: 90vw;
+        margin-bottom: 40px;
+        background-color: #fff;
+        border-radius: 4px;
+        box-shadow: 0px 0px rgba(0, 0, 0, 0);
+        margin: 0 auto;
+    }
+
+    .item2, .item4,.item1, .item3{
+        float: none;
+    }
+    .caixa{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 0;
+    }
+    .img-card{
+    margin-right: 20px;
+    object-fit: cover;
+    height: 90%;
+    width: 90%;
+}
+  
+}

@@ -195,5 +195,14 @@ footer{
         right: 0;
        /* transform: scaleX(100%); */
     }
+    .footer-top{
+        display: inline-flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    .subfooter-content{
+        flex-direction: column;
+        text-align: center;
+    }
 
 }
