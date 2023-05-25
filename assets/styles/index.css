@@ -140,6 +140,13 @@
 
 /* RESPONSIVO */
 @media (max-width: 768px){
+    header h1{
+        font-size: 24px;
+    }
+    .div-section{
+        margin-left: 20px;
+        width: 90%;
+    }
     .text-content h1, .text-content span{
         font-size: 24px;
     }
