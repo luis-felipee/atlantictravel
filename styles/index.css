@@ -1,0 +1,168 @@
+#name-title{
+    font-weight: bold;
+    margin: 0;
+    font-size: 32px;
+}
+/* SECTION PRINCIPAL  */
+.first-section{
+    display: flex;
+    background-image: url(/assets/images/cruise2brilho.jpg) !important;
+    background-repeat: no-repeat !important;
+    height: 100vh;
+    width: 100%;
+    background-size: cover !important;
+    background-attachment: fixed;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-section{
+    width: 80%;
+}
+.text-content{
+    margin-bottom: 50px;
+}
+.text-content h1, .text-content span{
+    font-family: 'Poppins-Italic';
+    font-size: 48px;
+    color: white;
+    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.6);
+    height: 50%;
+
+}
+.button-section{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.form_div{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    border: #00476c 2px solid;
+    background-color: #00476c;
+    margin-bottom: 50px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    gap: 20px;
+   
+}
+.form select, input, input[type=submit]{
+    width: 50%;
+    height: 60%;
+    background-color: rgb(255, 255, 255, 0.9);
+    font-weight: bolder;
+    text-align: center;
+    color: #00476c;
+    border-radius: 8px;
+    font-family: 'Poppins-italic', sans-serif;
+    border: 2px solid white;
+    font-size: 18px;
+}
+
+/* FROTAS DO NÁVIO  */
+.frotas{
+    text-align: left;
+    margin: 5% 5%;
+    width: 90%;
+}
+.frotas-title{
+    margin: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+.frota-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    /* margin: auto; */
+    width: 100%;
+    gap: 50px;
+}
+.card-section{
+    width: 400px;
+    height: 400px;
+}
+.text-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+}
+
+
+.frota-first{
+    background: url(/assets/images/index/frota1.jpg);
+    background-size: cover;
+}
+.frota-second{
+    background: url(/assets/images/index/frota2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.frota-third{
+   
+    background: url(/assets/images/index/frota3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.frota-four{
+ 
+    background: url(/assets/images/Frota/Atlantic\ StarInte3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px){
+    .div-section{
+        margin-left: 20px;
+        width: 90%;
+    }
+    .text-content h1, .text-content span{
+        font-size: 24px;
+    }
+    .form_div{
+        height: 70vh;
+    }
+    .form{
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-around;
+    }
+    .form select, input, input[type=submit]{
+        height: 50px;
+    }
+    .frota-grid{
+        grid-template-columns: auto;
+    }
+    .card-section{
+        width: 80vw;
+    }
+    .footer-top{
+        display: inline-flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    .subfooter-content{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (min-width: 1700px){
+    .first-section{
+       background-position-y: center; 
+    }
+  
+} 
