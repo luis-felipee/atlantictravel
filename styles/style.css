@@ -34,6 +34,7 @@ header{
     top: 0;
     color: #fff;
     transition: all .2s;
+    z-index: 1;
 }
 .header-scrolled{
     background-color: #00476c;
