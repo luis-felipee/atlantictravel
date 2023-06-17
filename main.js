@@ -12,7 +12,7 @@ window.addEventListener('scroll', () => {
 
 // Apaga e escreve o texto na primeira section.
 var typed = new Typed('#element', {
-    strings: ['caribbean sea.', 'world with Atlantic Travel.'],
+    strings: ['mar do Caribe.', 'o mar Mediterrâneo.','o mundo com  Atlantic Travel.', 'oceano Atlântico.', 'oceano Índico.', 'o mundo com Atlantic Travel.'],
     typeSpeed: 50,
     backSpeed: 30,
     smartBackspace: true,
