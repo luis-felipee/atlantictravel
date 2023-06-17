@@ -1,4 +1,9 @@
 /* SECTION PRINCIPAL  */
+#title h1{
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
 .first-section{
     display: flex;
     background-image: url(/assets/images/cruise2brilho.jpg) !important;
@@ -103,6 +108,7 @@
 }
 .frota-second{
     background: url(/assets/images/index/frota2.jpg);
+    
     background-size: cover;
     background-position: center;
 }
@@ -117,6 +123,19 @@
     background: url(/assets/images/Frota/Atlantic\ StarInte3.jpg);
     background-size: cover;
     background-position: center;
+}
+.carousel-title{
+    text-align: center;
+    margin: 50px 0;
+}
+.title-container, f{
+    font-weight: bold;
+    color: #00476c;
+}
+.carousel-item img{
+    filter: brightness(0.6);
+    height: 75vh;
+    object-fit: cover;
 }
 
 /* RESPONSIVO */
@@ -154,6 +173,19 @@
         flex-direction: column;
         text-align: center;
     }
+    .carousel-item img{
+        height: 50vh;
+    }
+    .carousel-caption h5{
+        font-size: 18px;
+    }
+    .carousel-caption p{
+        display: none;
+        font-size: 14px;
+    }
+    .first-section{
+        background-position-x: center; 
+     }
 }
 @media (min-width: 1700px){
     .first-section{

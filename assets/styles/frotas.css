@@ -95,6 +95,7 @@ header{
     /* margin-right: 40px; */
     text-align: center;
 }
+
 .experience-text h2{
     margin-bottom: 50px;
 }
@@ -108,6 +109,9 @@ header{
 
 }
 @media (max-width: 768px){
+    .first-section{
+        background-position-x: center; 
+     }
     .experience-content{
         height: 92vh;
         width: 90%;
@@ -134,11 +138,11 @@ header{
         justify-content: space-between;
         /* margin-top: 70px; */
     }
-    .experience-text h2{
-        margin-bottom: 5px;
+    .experience-text div h2{
+        margin-bottom: 20px;
     }
     .experience-text p{
-        font-size: 14px;
+        font-size: 19px;
     }
     .button-experience{
         justify-self: flex-end;
@@ -152,3 +156,4 @@ header{
         font-size: 1.5rem;
     }
 }
+

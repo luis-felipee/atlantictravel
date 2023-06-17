@@ -1,6 +1,6 @@
 .first-section {
     display: flex;
-    background-image: url(/assets/images/paisagem/Destinos.jpg);
+    background-image: url(/assets/images/paisagem/sobrefundo.jpg);
     background-repeat: no-repeat;
     height: 70vh;
     width: 100vw;
@@ -37,7 +37,7 @@
 }
 .experience-content{
     background: #fff;
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -75,7 +75,7 @@
     margin-bottom: 50px;
 }
 .experience-text p {
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 .button-experience{
     margin: 30px;
@@ -112,22 +112,20 @@
         /* margin-top: 70px; */
     }
     .experience-text h2{
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
     .experience-text p{
-        font-size: 15.5px;
+        font-size: 18px;
+        padding: 0 10px;
     }
     .button-experience{
         justify-self: flex-end;
         margin: 0;
     
 }
-@media (min-width: 768px){
-    .experience-text p{
-        font-size: 24px;
-    }
+  
 }
-}
+
 
 @media (min-width: 1700px){
     .first-section{
