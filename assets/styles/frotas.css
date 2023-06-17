@@ -7,13 +7,11 @@ header{
 }
 .first-section {
     display: flex;
-    background-image: url(/assets/images/Frota/Capa.jpg);
+    background-image: url(/assets/images/paisagem/frotafundo.jpg);
     background-repeat: no-repeat;
-    background-position: 0px -11vh;
     height: 70vh;
-    width: 100%;
+    width: 100%;    
     background-size: cover;
-    background-attachment: fixed;
     align-items: center;
     flex-direction: column;
     justify-content: center;
