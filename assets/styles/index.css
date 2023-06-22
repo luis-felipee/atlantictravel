@@ -1,7 +1,7 @@
 /* SECTION PRINCIPAL  */
 #title h1{
     margin: 0;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
 }
 .first-section{
@@ -143,6 +143,9 @@
     .div-section{
         margin-left: 20px;
         width: 90%;
+    }
+    #title h1{
+        font-size: 24px;
     }
     .text-content h1, .text-content span{
         font-size: 24px;
