@@ -1,0 +1,158 @@
+body{
+    color:#00476c;
+}
+header{
+    position: fixed;
+
+}
+.first-section {
+    display: flex;
+    background-image: url(/assets/images/paisagem/frotafundo.jpg);
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;    
+    background-size: cover;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    width: 100%;
+    padding: 15px 20%;
+    font-size: 20px;
+    text-align: center;
+}
+.div-section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.text-content{
+    margin-bottom: 40px;
+}
+.text-content h1{
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 3px 5px #000;
+}
+.img-card{
+    width: 400px;
+    height: 400px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 50px 0;
+    justify-content: center;
+    color: #00476c;
+    gap: 80px;
+}
+.experience-content{
+    background: white;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    border: 2px solid #00476c;
+    height: 600px;
+}
+.experience-reverse{
+    flex-direction: row-reverse;
+}
+.experience-img{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    /* padding: 50px; */
+}
+.img-experience{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.experience-text{
+    height: 100%;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 15px;
+    align-items: center;
+    /* margin-right: 40px; */
+    text-align: center;
+}
+
+.experience-text h2{
+    margin-bottom: 50px;
+}
+.experience-text p {
+    font-size: 18px;
+}
+.button-experience{
+    margin: 30px;
+    color: #00476c;
+    border: 2px solid #00476c;
+
+}
+
+
+@media (max-width: 768px) and (max-height: 980px){
+    .experience-content{
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+        justify-content:flex-start;
+        gap: 0px;
+        /* margin-bottom: 50px; */
+    }
+    .experience-img{
+        width: 100%;
+        height: 40vh;
+    }
+    .img-experience{
+        height: 40vh;
+        width: 100%;
+    }
+    .experience-text{
+        justify-content: space-between;
+        align-self: center;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        gap: 10px;
+        justify-content: space-between;
+        /* margin-top: 70px; */
+    }
+    .experience-text h2{
+        margin-bottom: 10px;
+    }
+    .experience-text p{
+        font-size: 17px;
+        padding: 0 10px;
+    }
+    .button-experience{
+        justify-self: flex-end;
+        margin: 0;
+    
+}
+  
+
+}
+@media (min-width: 768px){
+    .experience-text p{
+        font-size: 1.5rem;
+    }
+}
+
