@@ -236,10 +236,5 @@ footer{
         flex-direction: column;
         text-align: center;
     }
-    .link{
-        text-decoration: none;
-        color: #fff;
-        font-size: 15px;
-    }
 
 }

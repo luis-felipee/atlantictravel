@@ -189,7 +189,12 @@
     .first-section{
         background-position-x: center; 
      }
-
+     .card-button{
+        margin: 80px 15%;
+     }
+     .link{
+        font-size: 16px;
+     }
 }
 @media (min-width: 1700px){
     .first-section{

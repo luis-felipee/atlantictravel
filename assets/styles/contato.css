@@ -84,9 +84,9 @@
 
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) and (max-height: 980px){
     .experience-content{
-        height: 100vh;
+        height: auto;
         width: 90%;
         flex-direction: column;
         justify-content:flex-start;
@@ -102,9 +102,9 @@
         width: 100%;
     }
     .experience-text{
-        justify-content: flex-start;
+        justify-content: space-between;
         align-self: center;
-        height: 50vh;
+        height: auto;
         width: 100%;
         text-align: center;
         gap: 10px;
@@ -115,7 +115,7 @@
         margin-bottom: 10px;
     }
     .experience-text p{
-        font-size: 18px;
+        font-size: 17px;
         padding: 0 10px;
     }
     .button-experience{
