@@ -6,5 +6,3 @@ Projeto da etec basilides godoy. Front-end. Agência de turismo.
 ![Exemplo de imagem](Page_2.png)
 
 
-caso seja útil
-https://codepen.io/nxworld/pen/ZYNOBZ
