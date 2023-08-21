@@ -35,3 +35,7 @@ var nextDate = addDays(currentDate, 1);
 document.getElementById('checkout').value = nextDate.toISOString().substring(0, 10);
 
 
+function Enviar() {
+    alert('Obrigado agenda uma viagem!');
+
+}

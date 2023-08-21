@@ -47,8 +47,8 @@
 
     <section class="second-section">
         <div class="form_div">
-            <form action="" class="form">
-                <select for="Destino" name="destino" id="">
+            <form name="forms" class="form">
+                <select for="Destino" name="destino" id="" required>
                     <option value="" disabled selected>Partida</option>
                     <option value="california">Califórnia, Estados Unidos</option>
                     <option value="florida">Flórida, Estados Unidos</option>
@@ -63,7 +63,7 @@
                     <option value="cancun">Cancún, México</option>
                 </select>
                 
-                <select for="Destino" name="destino" id="">
+                <select for="Destino" name="destino" id="" required>
                     <option value="" disabled selected>Destino</option>
                     <option value="california">Califórnia, Estados Unidos</option>
                     <option value="florida">Flórida, Estados Unidos</option>
@@ -78,16 +78,16 @@
                     <option value="cancun">Cancún, México</option>
                 </select>
                 
-                <input id="checkin" type="date" name="checkin" min="">
-                <input id="checkout" type="date" name="checkout" min="">
-                <select name="navio" id="navio">
+                <input id="checkin" type="date" name="checkin" min="" required>
+                <input id="checkout" type="date" name="checkout" min="" required>
+                <select name="navio" id="navio" required>
                     <option value="" disabled selected>NAVIO</option>
                     <option value="star">Atlantic Star</option>
                     <option value="star">Atlantic Voyager</option>
                     <option value="star">Atlantic Dream</option>
                     <option value="star">Atlantic Breeze</option>
                 </select>
-                <input type="submit" value="BUSCAR" class="button">
+                <input type="submit" value="BUSCAR" class="button" onclick="Enviar()">
             </form>
         </div>
         <div class="frotas">
@@ -137,28 +137,24 @@
             <img src="./assets/images/destino1.0.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption">
               <h5>Fernando de Noronha, Brasil</h5>
-              <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="./assets/images/destino2.0.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption">
               <h5>Costa Amalfitana, Itália</h5>
-              <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="./assets/images/destino2.2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption">
               <h5>Mykonos, Grécia</h5>
-              <p>Some representative placeholder content for the third slide.</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="./assets/images/destino4.2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption ">
               <h5>Bali, Indonésia</h5>
-              <p>Some representative placeholder content for the third slide.</p>
             </div>
           </div>
         </div>
