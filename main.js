@@ -36,6 +36,6 @@ document.getElementById('checkout').value = nextDate.toISOString().substring(0, 
 
 
 function Enviar() {
-    alert('Obrigado agenda uma viagem!');
+    alert('Agenda realizada!');
 
 }
