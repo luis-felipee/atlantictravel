@@ -36,6 +36,9 @@ document.getElementById('checkout').value = nextDate.toISOString().substring(0, 
 
 
 function Enviar() {
-    alert('Agenda realizada!');
+    var destino = document.getElementById("Destino").value;
+    if(destino != ''){
+        alert('Agenda realizada!');
+    }
 
 }
